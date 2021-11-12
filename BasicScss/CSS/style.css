@@ -1,0 +1,98 @@
+.navBar {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+  overflow: hidden;
+  background-color: gray;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 90px;
+}
+.navBar .webTitle {
+  display: inline-block;
+  position: relative;
+  top: 15px;
+  left: 100px;
+  color: goldenrod;
+}
+.navBar .options {
+  margin-left: 77%;
+}
+.navBar .options li {
+  display: inline-block;
+}
+.navBar .options li a {
+  position: relative;
+  bottom: 40px;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.mainContent1 {
+  border: 6px groove;
+  z-index: -1;
+  padding: 20px;
+  margin: 55px 95px 55px 20px;
+  width: 40%;
+  height: 900px;
+}
+.mainContent1 h2 {
+  text-shadow: 1px 1px;
+}
+.mainContent1 p {
+  font-size: 18px;
+  text-align: justify;
+}
+
+.mainContent2 {
+  border: 6px groove;
+  z-index: -1;
+  padding: 20px;
+  width: 35%;
+  height: 350px;
+  position: relative;
+  left: 55%;
+  bottom: 1030px;
+}
+.mainContent2 h2 {
+  text-shadow: 1px 1px;
+}
+.mainContent2 p {
+  font-size: 18px;
+  text-align: justify;
+}
+
+.mainContent3 {
+  border: 6px groove;
+  z-index: -1;
+  padding: 20px;
+  width: 35%;
+  height: 500px;
+  position: relative;
+  left: 55%;
+  margin-top: 15px;
+  bottom: 1020px;
+}
+.mainContent3 h2 {
+  text-shadow: 1px 1px;
+}
+.mainContent3 p {
+  font-size: 18px;
+  text-align: justify;
+}
+
+.footer {
+  position: relative;
+  margin-top: 0;
+}
+
+.allContent {
+  height: 1000px;
+}
+
+/*# sourceMappingURL=style.css.map */

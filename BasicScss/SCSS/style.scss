@@ -1,0 +1,88 @@
+.navBar {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+  overflow: hidden;
+  background-color: gray;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 90px;
+
+.webTitle{
+display: inline-block;
+position: relative;
+top: 15px;
+left:100px;
+color: goldenrod;
+}
+  .options {
+
+    margin-left: 77%;
+
+    li {
+      display: inline-block;
+
+      a {
+        position: relative;
+        bottom: 40px;
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+    }
+  }
+}
+
+@mixin layout() {
+  border: 6px groove;
+  z-index: -1;
+  padding: 20px;
+  h2{
+    text-shadow: 1px 1px;
+  }
+  p{
+    font-size: 18px;
+    text-align: justify;
+  }
+}
+
+.mainContent1 {
+  @include layout();
+  margin: 55px 95px 55px 20px;
+  width: 40%;
+  height: 900px;
+
+}
+
+.mainContent2 {
+  @include layout();
+  width: 35%;
+  height: 350px;
+  position: relative;
+  left: 55%;
+  bottom: 1030px;
+}
+
+.mainContent3 {
+  @include layout();
+  width: 35%;
+  height: 500px;
+  position: relative;
+  left: 55%;
+  margin-top: 15px;
+  bottom: 1020px;
+
+}
+.footer{
+  position: relative;
+  margin-top: 0;
+  
+}
+.allContent{
+  height: 1000px;
+}
