@@ -1,0 +1,126 @@
+.outer {
+  padding: 20px;
+}
+.outer .Background {
+  background: url(../Images/background.jpeg);
+}
+.outer .Background .header {
+  margin-bottom: 9px;
+  color: gold;
+  opacity: 0.9;
+  padding: 60px;
+  text-align: center;
+}
+.outer .div1 {
+  background-color: white;
+  border: 3px groove gainsboro;
+  margin: 4px 0px;
+}
+.outer .div1 .navbar ul {
+  background-color: rgba(4, 247, 255, 0.068);
+  border: 1px solid gainsboro;
+  list-style-type: none;
+  margin: 10px 5px 15px;
+  padding: 5px;
+}
+.outer .div1 .navbar li {
+  display: inline-flex;
+}
+.outer .div1 .navbar li a {
+  border-right: 4px dotted rgba(170, 168, 168, 0.877);
+  color: #666;
+  display: inline-block;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+  width: 280px;
+}
+.outer .div1 .navbar li .About {
+  border: none;
+}
+.outer .div1 .navbar li a:hover {
+  background-color: #ddd;
+}
+.outer .div1 .main-menu-block {
+  bottom: 25px;
+  display: inline-block;
+  margin-right: 20px;
+  padding: 45px 10px 10px 10px;
+  position: relative;
+  width: 20%;
+}
+.outer .div1 .main-menu-block .main-menu {
+  border: groove;
+  margin: 4px 2px 0px;
+  padding: 5px;
+}
+.outer .div1 .main-menu-block .main-menu ul {
+  list-style: none;
+}
+.outer .div1 .main-menu-block .main-menu ul li a {
+  color: rgba(112, 230, 96, 0.897);
+  text-decoration: none;
+}
+.outer .div1 .main-menu-block .block {
+  border: groove;
+  margin: 10px 0px 12px 0px;
+  padding: 5px;
+}
+.outer .div1 .gallery-subscription-other-services {
+  bottom: 85px;
+  display: inline-block;
+  position: relative;
+  width: 68%;
+  margin-left: 20px;
+}
+.outer .div1 .gallery-subscription-other-services .gallery {
+  margin: 1px;
+  padding: 15px;
+}
+.outer .div1 .gallery-subscription-other-services .gallery h2 {
+  border-bottom: 1px solid gainsboro;
+  padding-bottom: 10px;
+}
+.outer .div1 .gallery-subscription-other-services .subscription {
+  margin: 1px;
+  display: inline-block;
+  margin-right: 20px;
+  padding: 8px;
+  width: 45%;
+}
+.outer .div1 .gallery-subscription-other-services .subscription .button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  display: inline-block;
+  font-size: 16px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+}
+.outer .div1 .gallery-subscription-other-services .other-services {
+  margin: 1px;
+  display: inline-block;
+  margin-left: 20px;
+  padding: 9px;
+  width: 45%;
+}
+.outer .div1 .gallery-subscription-other-services .other-services .button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  display: inline-block;
+  font-size: 16px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+}
+.outer .div1 .footer {
+  background-color: rgba(155, 146, 146, 0.404);
+  color: white;
+  margin: 6px 3px;
+  padding: 3px 0px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

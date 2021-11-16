@@ -1,0 +1,159 @@
+.outer {
+  padding: 20px;
+
+  .Background {
+    background: url(../Images/background.jpeg);
+
+    .header {
+      color: gold;
+      margin-bottom: 9px;
+      opacity: 0.9;
+      padding: 60px;
+      text-align: center;
+    }
+  }
+
+  .div1 {
+    background-color: white;
+    border: 3px groove gainsboro;
+    margin: 4px 0px;
+
+    .navbar {
+      ul {
+        background-color: rgba(4, 247, 255, 0.068);
+        border: 1px solid gainsboro;
+        list-style-type: none;
+        margin: 10px 5px 15px;
+        padding: 5px;
+      }
+
+      li {
+        display: inline-block;
+      }
+
+      li a {
+        border-right: 4px dotted rgba(170, 168, 168, 0.877);
+        color: #666;
+        display: inline-block;
+        padding: 14px 16px;
+        text-align: center;
+        text-decoration: none;
+        width: 280px;
+      }
+
+      li .About {
+        border: none;
+      }
+
+      li a:hover {
+        background-color: #ddd;
+      }
+    }
+
+    .main-menu-block {
+      bottom: 25px;
+      display: inline-block;
+      margin-right: 20px;
+      padding: 45px 10px 10px 10px;
+      position: relative;
+      width: 20%;
+
+      $paddingBottom: 0px;
+
+      .main-menu {
+        border: groove;
+        margin: 4px 2px 0px;
+        padding: 5px;
+
+        ul {
+          list-style: none;
+
+          li {
+            a {
+              color: rgba(112, 230, 96, 0.897);
+              text-decoration: none;
+            }
+          }
+
+        }
+      }
+
+      .block {
+        border: groove;
+        margin: 10px 0px 12px 0px;
+        padding: 5px;
+
+      }
+    }
+
+    .gallery-subscription-other-services {
+      bottom: 85px;
+      display: inline-block;
+      margin-left: 20px;
+      position: relative;
+      width: 68%;
+
+      @mixin borderLayout() {
+        margin: 1px;
+      }
+
+      .gallery {
+        @include borderLayout();
+
+        h2 {
+          border-bottom: 1px solid gainsboro;
+          padding-bottom: 10px;
+        }
+
+        padding: 15px;
+      }
+
+      $paddingBottom:300px;
+
+      @mixin button() {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        display: inline-block;
+        font-size: 16px;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+      }
+
+      .subscription {
+        @include borderLayout();
+
+        .button {
+          @include button();
+        }
+
+        display: inline-block;
+        margin-right: 20px;
+        padding: 8px;
+        width: 45%;
+      }
+
+      .other-services {
+        @include borderLayout();
+
+        .button {
+          @include button();
+        }
+
+        display: inline-block;
+        margin-left: 20px;
+        padding: 9px;
+        width: 45%;
+      }
+    }
+
+    .footer {
+      background-color: rgba(155, 146, 146, 0.404);
+      color: white;
+      margin: 6px 3px;
+      padding: 3px 0px;
+      text-align: center;
+    }
+  }
+}
