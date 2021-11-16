@@ -1,0 +1,86 @@
+.outer {
+  max-width: 100%;
+
+  .nav {
+    background-color: rgb(192, 188, 188);
+
+    ul {
+      margin: 0px;
+
+      @mixin list-layout() {
+        color: #666;
+        padding: 20px 15px;
+        text-align: center;
+      }
+
+      .home {
+        display: inline-block;
+
+        li {
+          display: inline-block;
+          @include list-layout();
+
+          h2 {
+            color: rgba(153, 131, 6, 0.76);
+            margin: 0px;
+          }
+        }
+      }
+
+      .options {
+        display: inline-block;
+        left: 80px;
+        position: relative;
+
+        li {
+          color: beige;
+          display: inline-block;
+          @include list-layout();
+        }
+
+        li:hover {
+          background-color: rgb(238, 163, 12);
+        }
+      }
+    }
+  }
+
+  .heading1 {
+    border: 6px groove gainsboro;
+    display: inline-block;
+    padding: 20px 20px 20px 20px;
+    margin-left: 20px;
+    max-width: 40%;
+  }
+
+  .heading2-heading3 {
+    display: inline-block;
+    left: 140px;
+    max-width: 40%;
+    padding: 15px;
+    position: relative;
+
+    @mixin layout {
+      border: 6px groove gainsboro;
+      margin: 10px;
+      padding: 35px 10px 10px 10px;
+    }
+
+    .heading2 {
+      @include layout();
+    }
+
+    .heading3 {
+      @include layout();
+    }
+
+  }
+
+  .footer {
+    background-color: rgba(155, 146, 146, 0.404);
+    color: white;
+    margin: 6px 3px;
+    padding: 3px 0px;
+    text-align: center;
+  }
+}
